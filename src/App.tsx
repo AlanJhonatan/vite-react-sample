@@ -1,5 +1,12 @@
-function App() {
-  return <h1>Hello world !</h1>;
-}
+import { Tweet } from './components/Tweet';
 
-export default App;
+export function App() {
+  return (
+    <>
+      <Tweet text='The first tweet' />
+      <Tweet text='The second tweet' />
+      <Tweet text='The third tweet' />
+      <Tweet text='The first tweet' />
+    </>
+  );
+}
